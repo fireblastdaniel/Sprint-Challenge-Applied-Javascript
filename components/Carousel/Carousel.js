@@ -67,6 +67,7 @@ function Carousel(){
   leftButton.textContent = '<';
   rightButton.classList.add('right-button');
   rightButton.textContent = '>';
+  carousel.style.zIndex = '-1'
 
   return carousel;
 }
